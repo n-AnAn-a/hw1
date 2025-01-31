@@ -1,12 +1,10 @@
 #ifndef SPLIT_H
 #define SPLIT_H
 
-
 struct Node 
 {
   int value;
   Node* next;
-
   /**
    * Initializing constructor
    */
@@ -18,5 +16,9 @@ struct Node
 };
 
 void split(Node*& in, Node*& odds, Node*& evens);
+
+void printL(Node* head);
+
+void deleteL(Node*& head);
 
 #endif
